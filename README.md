@@ -124,7 +124,7 @@ Model Name: Claude
 
 Se você receber um erro relacionado a credenciais AWS:
 - Verifique se suas credenciais estão configuradas corretamente
-- Confirme que tem acesso à região `eu-central-1` (ou altere a região no código)
+- Confirme que tem acesso à região `us-west-2` (ou altere a região no código)
 
 ### Erro de Permissões
 
@@ -141,3 +141,4 @@ Se você não conseguir listar os modelos:
 # Resources
 - https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-diffusion-1-0-text-image.html
+- https://github.com/frkr/mlearn/blob/master/iris_ml.ipynb
