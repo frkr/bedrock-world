@@ -197,11 +197,11 @@ def verify_policy_applied(username):
 def test_bedrock_access():
     """Test if Bedrock access is working."""
     print(f"\n🧪 Testing Bedrock access...")
-    print("   Running: python3 ../bedrock.py")
+    print("   Running: python3 ../1_bedrock.py")
     
     try:
         result = subprocess.run(
-            ['python3', '../bedrock.py'],
+            ['python3', '../1_bedrock.py'],
             capture_output=True,
             text=True,
             timeout=30

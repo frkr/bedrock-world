@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Para poder executar o script `bedrock.py` diretamente, você precisa adicionar permissão de execução:
 
 ```bash
-chmod +x bedrock.py
+chmod +x 1_bedrock.py
 ```
 
 ### Configurar Credenciais AWS
@@ -62,13 +62,13 @@ Existem duas formas de executar o projeto:
 ### Forma 1: Executar diretamente (após chmod +x)
 
 ```bash
-./bedrock.py
+./1_bedrock.py
 ```
 
 ### Forma 2: Usando o interpretador Python
 
 ```bash
-python bedrock.py
+python 1_bedrock.py
 ```
 
 ## Estrutura do Projeto
