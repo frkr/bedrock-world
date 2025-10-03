@@ -5,7 +5,7 @@ import base64
 client = boto3.client(service_name='bedrock-runtime', region_name="us-west-2")
 
 stability_image_config = json.dumps({
-    "prompt": "a photo of a dragon"
+    "prompt": "a photo of a cat"
 })
 
 response = client.invoke_model(
@@ -19,6 +19,6 @@ base64_image = response_body.get("images")[0]
 
 base_64_image = base64.b64decode(base64_image)
 
-file_path = "dragon.png"
+file_path = "cat.png"
 with open(file_path, "wb") as f:
     f.write(base_64_image)
