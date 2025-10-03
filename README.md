@@ -140,3 +140,4 @@ Se você não conseguir listar os modelos:
 
 # Resources
 - https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html
+- https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-diffusion-1-0-text-image.html
