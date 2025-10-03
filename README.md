@@ -142,3 +142,7 @@ Se você não conseguir listar os modelos:
 - https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-diffusion-1-0-text-image.html
 - https://github.com/frkr/mlearn/blob/master/iris_ml.ipynb
+- Amazon Open Search Service: https://aws.amazon.com/pt/opensearch-service/
+- Amazon Aurora PostgreSQL: https://aws.amazon.com/pt/rds/aurora/postgresql/
+- Amazon DocumentDB: https://aws.amazon.com/pt/documentdb/
+- 
